@@ -11,21 +11,29 @@ public class RobotSquare {
     public static void main(String[] args) throws Exception {
  
     	// 1. Make a new Robot
+    	Robot bot = new Robot();
 
 
         // 3. Put the robot's pen down
+    	bot.penDown();
 
 
         // 6. Make the robot move as fast as possible
+    	bot.setSpeed(10);
 
 
         // 5. Do everything below here 4 times
+    	for(int i=0;i<10;i++){
+    		
+    	}
 
 
         //         2. Move your robot 200 pixels
+    	bot.move(200);
 
 
         //         4. Turn the robot 90 degrees to the right (90 degrees)
+    	bot.turn(360);
 
 
     }
